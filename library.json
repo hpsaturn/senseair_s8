@@ -28,10 +28,6 @@
     "espressif32",
     "espressif8266"
   ],
-  "dependencies":
-  [
-    {"name":"TimerOne", "owner":"paulstoffregen", "version":"^1.1"}
-  ],
   "export": {
     "exclude":
     [
