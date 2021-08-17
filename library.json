@@ -1,0 +1,44 @@
+{
+  "name": "SenseAirS8",
+  "keywords": "SenseAir S8 Library",
+  "description": "Basic library for handling S8 sensor via UART",
+  "authors":
+  [
+    {
+      "name": "@hpsaturn",
+      "url": "https://hpsaturn.com",
+      "maintainer": true
+    },
+    {
+      "name": "Josep Comas",
+      "url": "https://github.com/jcomas"
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/hpsaturn/senseair_s8.git"
+  },
+  "version": "0.0.1",
+  "frameworks": ["espidf", "freertos", "arduino"],
+  "platforms":
+  [
+    "atmelavr",
+    "teensy",
+    "espressif32",
+    "espressif8266"
+  ],
+  "dependencies":
+  [
+    {"name":"TimerOne", "owner":"paulstoffregen", "version":"^1.1"}
+  ],
+  "export": {
+    "exclude":
+    [
+        ".github",
+        ".travis.yml",
+        ".gitignore",
+        "releases"
+    ]
+  }
+}
